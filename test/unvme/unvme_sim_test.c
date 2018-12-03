@@ -139,7 +139,7 @@ int main(int argc, char** argv)
     unvme_free(ns, buf);
     unvme_close(ns);
 
-    printf("SIMPLE WRITE-READ-VERIFY TEST COMPLETE (%ld secs)\n", time(0) - tstart);
+    printf("SIMPLE WRITE-READ-VERIFY TEST COMPLETE (%lld secs)\n", time(0) - tstart);
     return 0;
 }
 
